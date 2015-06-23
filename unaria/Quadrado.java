@@ -7,6 +7,8 @@ public class Quadrado implements OperacaoUnaria {
 
     private final OperacaoBinaria multiplicacao = new Multiplicacao();
     
+    //teste
+    
     @Override
     public double calcular(double operando) {
         return multiplicacao.calcular( operando, operando );
